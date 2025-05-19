@@ -66,7 +66,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/c-kiplimo/shared</url>
+        </repository>
+    </distributionManagement>
     <build>
         <plugins>
             <plugin>
